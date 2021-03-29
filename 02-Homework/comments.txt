@@ -1,0 +1,28 @@
+Repetitions:
+
+CSS file:
+
+Body, h1, .seo has same color #d9dcd6
+
+a & header, same color #ffffff (white?)
+
+.benefit-brand, .benefit-cost, .benefit lead same stuff
+
+
+
+Additions:
+
+added id="search-engine-optimization" to line 29.
+
+added alt attribute to all images
+
+updated title to company name.
+
+Changes:
+[semantic] changed div class=footer to just footer
+
+
+
+
+
+
