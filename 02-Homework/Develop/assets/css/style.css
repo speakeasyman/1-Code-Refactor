@@ -1,12 +1,15 @@
+/* Global styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body Styling */
 body {
     background-color: #d9dcd6;
 }
+
+/* Header stylings */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +25,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Styling for the nav links in header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,19 +42,21 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-main {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Main stylings */
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 p {
     font-size: 16px;
 }
-
+/* This is the back ground picture of intent working */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +66,30 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* content is the styling for the left column, search opti, rep man, etc.. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benefits is the styling for the right column, lead gen, brand aware, etc... */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,23 +113,18 @@ p {
     max-width: 150px;
 }
 
-.content div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
+
+/* Utility Class stylings */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.content img {
-    max-height: 200px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Styling  */
 footer {
     padding: 30px;
     clear: both;
