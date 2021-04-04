@@ -7,7 +7,7 @@
     Introduction:
         This goal is the first homework of my coding bootcamp assignment. The goal is to practice a "on the job ticket" where I was given an existing index.html and style.css file. My goals were to increase the accessibility, contain semantic html elements, ensure the elements follow a logical structure, add alt attributes to the image elements, the headings elements fall in sequential order, and update the title. But, without changing the format of the website at the user level.
 
-**3.0** 
+3.0 
     Technologies:
         html and css
 
